@@ -7,6 +7,7 @@ const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const { Octokit } = require('@octokit/rest');
 const cron = require('node-cron');
 const { createDbSchema, createCacheDbSchema } =  require('./others/dbSchema.js');
+require('dotenv').config()
 
 require('log-timestamp');
 
