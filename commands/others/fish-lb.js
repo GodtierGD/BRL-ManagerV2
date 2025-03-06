@@ -5,7 +5,7 @@ module.exports = {
 	cooldown: 5,
 	data: new SlashCommandBuilder()
 		.setName('fish-lb')
-		.setDescription('AREDL Fishy leaderboard'),
+		.setDescription('BRL Fishy leaderboard'),
 	async execute(interaction) {
 		const { db, cache } = require('../../index.js');
 		let page = 0;
