@@ -2,10 +2,10 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
 	enabled: true,
-	cooldown: 60,
+	cooldown: 10,
 	data: new SlashCommandBuilder()
 		.setName('fish')
-		.setDescription('AREDL Fishy'),
+		.setDescription('BRL Fishy'),
 	async execute(interaction) {
 		const { db, cache } = require('../../index.js');
 		const baseFactor = 0.0005832492374192035997815;
